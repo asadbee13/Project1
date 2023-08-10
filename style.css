@@ -105,5 +105,10 @@ body{
   }
   
   p{
-    letter-spacing: 12px;
+    letter-spacing: 3px;
   }
+
+.con {
+    font-family: 'RULUKO' sans-serif;
+    text-align: center;
+}
