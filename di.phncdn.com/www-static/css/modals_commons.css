@@ -1,0 +1,578 @@
+.displayFlex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.flexWrap {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    vertical-align: top;
+    text-align: center
+}
+
+.orangeButton {
+    border: 0;
+    background: #f90;
+    color: #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px
+}
+
+.noLinkBtn {
+    cursor: default !important
+}
+
+.GreyBottomContainer {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(3, 3, 3, 0) 10%, rgba(13, 13, 13, .93) 42%, rgba(30, 30, 30, .93) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(10%, rgba(3, 3, 3, 0)), color-stop(42%, rgba(13, 13, 13, .93)), color-stop(100%, rgba(30, 30, 30, .93)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(3, 3, 3, 0) 10%, rgba(13, 13, 13, .93) 42%, rgba(30, 30, 30, .93) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(3, 3, 3, 0) 10%, rgba(13, 13, 13, .93) 42%, rgba(30, 30, 30, .93) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(3, 3, 3, 0) 10%, rgba(13, 13, 13, .93) 42%, rgba(30, 30, 30, .93) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(3, 3, 3, 0) 10%, rgba(13, 13, 13, .93) 42%, rgba(30, 30, 30, .93) 100%)
+}
+
+.ProfileMainMenu {
+    background: #282828;
+    background: -moz-linear-gradient(top, #323232 0, #1c1c1c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323232), color-stop(100%, #1c1c1c));
+    background: -webkit-linear-gradient(top, #323232 0, #1c1c1c 100%);
+    background: -o-linear-gradient(top, #323232 0, #1c1c1c 100%);
+    background: -ms-linear-gradient(top, #323232 0, #1c1c1c 100%);
+    background: linear-gradient(to bottom, #323232 0, #1c1c1c 100%)
+}
+
+.arrow {
+    content: '';
+    width: 0;
+    height: 0;
+    font-size: 0
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.userSelect {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.dropdownFilters {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    min-width: 188px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    z-index: 100;
+    background: #1b1b1b
+}
+
+.dropdownFilters>li {
+    line-height: 32px;
+    background: #1b1b1b;
+    font-size: 12px;
+    white-space: nowrap;
+    text-transform: capitalize
+}
+
+.dropdownFilters>li.active>span>a,
+.dropdownFilters>li:hover>span>a {
+    color: #cacaca;
+    font-weight: 700
+}
+
+.dropdownFilters>li>span {
+    height: 32px;
+    display: block;
+    padding: 0;
+    cursor: default
+}
+
+.dropdownFilters>li>span>a {
+    color: #969696;
+    cursor: pointer;
+    display: block;
+    padding: 0 25px
+}
+
+.dropdownFilters>li>span>a:hover {
+    text-decoration: none
+}
+
+.dropdownFilters>li i {
+    display: none;
+    width: 15px;
+    height: 19px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 5px
+}
+
+.dropdownFilters>li i.mr {
+    background-position: -227px -271px
+}
+
+.dropdownFilters>li i.mv {
+    background-position: -192px -290px
+}
+
+.dropdownFilters>li i.tt {
+    background-position: -192px -348px
+}
+
+.dropdownFilters>li i.ms {
+    background-position: -207px -327px
+}
+
+.dropdownFilters>li i.tr {
+    background-position: -192px -309px
+}
+
+.dropdownFilters>li i.lg {
+    background-position: -192px -328px
+}
+
+.dropdownFilters>li i.mf {
+    background-position: -192px -252px
+}
+
+.dropdownFilters>li i.a {
+    background-position: -207px -252px
+}
+
+.dropdownFilters>li i.nv {
+    background-position: -207px -271px
+}
+
+.dropdownFilters>li i.re {
+    background-position: -207px -290px
+}
+
+.dropdownFilters>li i.cm {
+    background-position: -227px -292px
+}
+
+.dropdownFilters>li i.ht {
+    background-position: -265px -342px
+}
+
+.dropdownFilters>li i.av {
+    background-position: -263px -275px;
+    width: 20px
+}
+
+.dropdownFilters>li i.po {
+    background-position: -264px -292px;
+    width: 20px
+}
+
+.dropdownFilters>li i.straight {
+    background-position: -245px -305px;
+    width: 16px;
+    height: 17px
+}
+
+.dropdownFilters>li i.gay {
+    background-position: -245px -324px;
+    width: 16px;
+    height: 17px
+}
+
+.dropdownFilters>li i.shemale {
+    background-position: -245px -343px;
+    width: 16px;
+    height: 17px
+}
+
+.wrapLongTitle {
+    word-break: break-word;
+    word-wrap: break-word
+}
+
+.itemTagBtn {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 8px 18px;
+    background: #1b1b1b;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    white-space: nowrap
+}
+
+.itemTagBtn:hover {
+    text-decoration: none;
+    background-color: #2f2f2f
+}
+
+.itemTagBtnWideDropdown {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 8px 18px;
+    background: #1b1b1b;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 3px 0
+}
+
+.itemTagBtnWideDropdown:hover {
+    text-decoration: none;
+    background-color: #2f2f2f
+}
+
+.text-red {
+    color: red
+}
+
+.containerMTubes {
+    text-align: center
+}
+
+.containerMTubes .modal-title {
+    font-size: 22px;
+    padding: 20px 40px;
+    background: #0f0f0f
+}
+
+.containerMTubes .modal-body {
+    margin: auto;
+    padding: 10px 30px
+}
+
+.containerMTubes .modal-body .text {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.containerMTubes .modal-body .error-text,
+.containerMTubes .modal-body .success-text {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.containerMTubes .modal-body .success-text {
+    color: #62ae2c
+}
+
+.containerMTubes .modal-body .error-text {
+    color: red
+}
+
+.containerMTubes .modal-footer {
+    background: #0f0f0f;
+    padding: 20px 40px;
+    margin-top: 40px
+}
+
+.containerMTubes .modal-footer .buttonBase {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    float: right;
+    margin-left: 10px;
+    padding: 7px 15px;
+    font-size: 12px;
+    text-transform: capitalize
+}
+
+.isOpenMTubes {
+    overflow: hidden;
+    position: relative;
+    padding-right: 17px
+}
+
+.osx .isOpenMTubes {
+    padding-right: 0
+}
+
+.isOpenMTubes.scrollMTubes {
+    height: 100%;
+    overflow-y: auto;
+    padding-right: 0
+}
+
+html.macintosh .isOpenMTubes {
+    padding-right: 0
+}
+
+.containerMTubes {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100
+}
+
+.isOpenMTubes .containerMTubes {
+    overflow: auto;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    z-index: 101
+}
+
+.isOpenMTubes .containerMTubes.scrollMTubes {
+    position: absolute;
+    overflow: hidden
+}
+
+.containerMTubes.isVisibleMTubes:not(.bg-legacy-opacity) {
+    background: rgba(0, 0, 0, .75)
+}
+
+.containerMTubes.noRbga {
+    background-position: 0 0
+}
+
+.modalMTubes {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border: 1px solid #2e2e2e;
+    display: inline-block;
+    position: relative;
+    top: 100px
+}
+
+.elOpenMTubes {
+    display: inline-block !important
+}
+
+.contentMTubes {
+    text-align: left;
+    text-align: initial
+}
+
+.modalMTubes.avatarContainer.isHasMainhubAccess,
+.modalMTubes.coverContainer.isHasMainhubAccess {
+    border: none
+}
+
+.modalMTubes.avatarContainer.isHasMainhubAccess .ph-icon-clear,
+.modalMTubes.coverContainer.isHasMainhubAccess .ph-icon-clear {
+    font-size: 1em;
+    color: #969696;
+    top: 20px;
+    right: 20px
+}
+
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .avatar-modal,
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .cover-modal,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .avatar-modal,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .cover-modal {
+    border: none;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    background-color: #151515;
+    padding: 35px 25px 35px 25px;
+    width: 406px
+}
+
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .avatar-modal .modal-title,
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .cover-modal .modal-title,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .avatar-modal .modal-title,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .cover-modal .modal-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 0 20px 0;
+    background-color: #151515;
+    line-height: 20px
+}
+
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .avatar-modal .modal-description,
+.modalMTubes.avatarContainer.isHasMainhubAccess .contentMTubes .cover-modal .modal-description,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .avatar-modal .modal-description,
+.modalMTubes.coverContainer.isHasMainhubAccess .contentMTubes .cover-modal .modal-description {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #c6c6c6
+}
+
+.closeMTubes,
+.modal-close {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: -260px -321px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.closeMTubes:hover,
+.modal-close:hover {
+    background-position: -286px -321px
+}
+
+.modalMTubes .ph-icon-clear {
+    width: auto;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    background-image: none;
+    color: #303030;
+    font-size: 2.3em
+}
+
+.modalMTubes .ph-icon-clear:hover {
+    color: #2f2f2f
+}
+
+.modalMTubes .ph-icon-clear.displayNone {
+    display: none
+}
+
+.fadeInMTubes {
+    -webkit-animation: fadeInMTubes .4s;
+    animation: fadeInMTubes .4s;
+    opacity: 1
+}
+
+@-webkit-keyframes fadeInMTubes {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeInMTubes {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#sponsor-notification {
+    display: none
+}
+
+.userFlagSuccess .modal-body {
+    padding: 30px 40px
+}
+
+.flagProfileContainer .profileFlagSubmit.profileFlag {
+    padding: 0
+}
+
+.flagProfileContainer .profileFlagSubmit.profileFlag:disabled {
+    opacity: .3;
+    cursor: auto
+}
+
+.flagProfileContainer .profileFlagSubmit.profileFlag span {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.cookiesBanner {
+    background: rgba(30, 30, 30, .75);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.cookiesBanner.variation {
+    height: 10rem
+}
+
+.cookiesBanner .wrapper {
+    display: flex;
+    align-items: center
+}
+
+.cookiesBanner .wrapper .description {
+    max-width: 760px;
+    color: #fff;
+    margin-right: .5rem
+}
+
+.cookiesBanner .wrapper .okButton {
+    margin-left: 1rem
+}
+
+.cookiesBanner .wrapper .closeButton {
+    margin-left: 2rem;
+    background: 0 0;
+    border: none;
+    color: #b3b3b3;
+    font-size: 24px;
+    cursor: pointer
+}
+
+.containerMTubes.isVisibleMTubes.expiredEnterContainer {
+    background: #000
+}
