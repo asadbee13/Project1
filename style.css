@@ -1,0 +1,48 @@
+body {
+    background-color: #191e29;
+}
+.search-container {
+    position: relative;
+  }
+  
+  .search-container input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-container button[type="submit"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .search-container input[type="text"] {
+    /* ... existing styles ... */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .search-container input[type="text"]:focus {
+    width: 300px;
+  }
+  .search-container button[type="submit"] {
+    /* ... existing styles ... */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .search-container input[type="text"]:focus + button[type="submit"] {
+    opacity: 1;
+  }
+  
