@@ -3,6 +3,7 @@ body {
 }
 .search-container {
     position: relative;
+    text-align: center;
   }
   
   .search-container input[type="text"] {
